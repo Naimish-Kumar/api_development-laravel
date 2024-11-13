@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-10">
+<div class="container" style="padding-top: 5rem">
+    <div class="container mt-5" >
         <div class="col-md-12 bg-dark">
             <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
                 <h5 class="section-title ff-secondary text-start text-primary fw-normal">Register</h5>
@@ -26,9 +27,6 @@
                                 <label for="password">Password</label>
                             </div>
                         </div>
-
-
-
                         <div class="col-md-12">
                             <button class="btn btn-primary w-100 py-3" type="submit">Register</button>
                         </div>
@@ -37,4 +35,6 @@
             </div>
         </div>
     </div>
+
+</div>
 @endsection

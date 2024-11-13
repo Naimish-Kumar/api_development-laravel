@@ -2,6 +2,7 @@
 
 @section('content')
 
+<div class="container"style="padding-top: 5rem">
 <!-- Testimonial Start -->
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container">
@@ -58,4 +59,5 @@
     </div>
 </div>
 <!-- Testimonial End -->
+</div>
 @endsection

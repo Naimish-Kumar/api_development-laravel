@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container">
+<div class="container"style="padding-top: 5rem">
 
         <div class="col-md-12 bg-dark">
             <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">

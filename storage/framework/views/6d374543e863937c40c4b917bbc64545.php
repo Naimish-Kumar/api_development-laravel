@@ -1,5 +1,6 @@
 <?php $__env->startSection('content'); ?>
-    <div class="container mt-10">
+<div class="container" style="padding-top: 5rem">
+    <div class="container mt-5" >
         <div class="col-md-12 bg-dark">
             <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
                 <h5 class="section-title ff-secondary text-start text-primary fw-normal">Register</h5>
@@ -35,6 +36,8 @@
             </div>
         </div>
     </div>
+
+</div>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\My Projects\laravel prartice\api_development\resources\views/user/auth/register.blade.php ENDPATH**/ ?>

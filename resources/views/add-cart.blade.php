@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('content')
+
+<div class="container"style="padding-top: 5rem">
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
@@ -30,5 +32,5 @@
             </div>
         </div>
     </div>
-
+</div>
 @endauth

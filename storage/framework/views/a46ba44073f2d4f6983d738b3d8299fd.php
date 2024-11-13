@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <div class="container"style="padding-top: 5rem">
 
         <div class="container-xxl py-5">
@@ -10,19 +8,19 @@
                         <div class="row g-3">
                             <div class="col-6 text-start">
                                 <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s"
-                                    src="{{ asset('images/about-1.jpg') }}">
+                                    src="<?php echo e(asset('images/about-1.jpg')); ?>">
                             </div>
                             <div class="col-6 text-start">
                                 <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s"
-                                    src="{{ asset('images/about-2.jpg') }}" style="margin-top: 25%;">
+                                    src="<?php echo e(asset('images/about-2.jpg')); ?>" style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-end">
                                 <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s"
-                                    src="{{ asset('images/about-3.jpg') }}">
+                                    src="<?php echo e(asset('images/about-3.jpg')); ?>">
                             </div>
                             <div class="col-6 text-end">
                                 <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s"
-                                    src="{{ asset('images/about-4.jpg') }}">
+                                    src="<?php echo e(asset('images/about-4.jpg')); ?>">
                             </div>
                         </div>
                     </div>
@@ -73,7 +71,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item text-center rounded overflow-hidden">
                         <div class="rounded-circle overflow-hidden m-4">
-                            <img class="img-fluid" src="{{ asset('images/team-1.jpg') }}" alt="">
+                            <img class="img-fluid" src="<?php echo e(asset('images/team-1.jpg')); ?>" alt="">
                         </div>
                         <h5 class="mb-0">Full Name</h5>
                         <small>Designation</small>
@@ -87,7 +85,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item text-center rounded overflow-hidden">
                         <div class="rounded-circle overflow-hidden m-4">
-                            <img class="img-fluid" src="{{ asset('images/team-2.jpg') }}" alt="">
+                            <img class="img-fluid" src="<?php echo e(asset('images/team-2.jpg')); ?>" alt="">
                         </div>
                         <h5 class="mb-0">Full Name</h5>
                         <small>Designation</small>
@@ -101,7 +99,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item text-center rounded overflow-hidden">
                         <div class="rounded-circle overflow-hidden m-4">
-                            <img class="img-fluid" src="{{ asset('images/team-3.jpg') }}" alt="">
+                            <img class="img-fluid" src="<?php echo e(asset('images/team-3.jpg')); ?>" alt="">
                         </div>
                         <h5 class="mb-0">Full Name</h5>
                         <small>Designation</small>
@@ -116,7 +114,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item text-center rounded overflow-hidden">
                         <div class="rounded-circle overflow-hidden m-4">
-                            <img class="img-fluid" src="{{ asset('images/team-4.jpg') }}" alt="">
+                            <img class="img-fluid" src="<?php echo e(asset('images/team-4.jpg')); ?>" alt="">
                         </div>
                         <h5 class="mb-0">Full Name</h5>
                         <small>Designation</small>
@@ -133,4 +131,6 @@
         </div>
     </div>
     <!-- Team End -->
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\My Projects\laravel prartice\api_development\resources\views/about.blade.php ENDPATH**/ ?>

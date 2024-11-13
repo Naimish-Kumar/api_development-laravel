@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-
+<div class="container"style="padding-top: 5rem">
         <!-- Team Start -->
         <div class="container-xxl pt-5 pb-3">
             <div class="container">
@@ -126,4 +126,5 @@
             </div>
         </div>
         <!-- Team End -->
+</div>
 @endsection

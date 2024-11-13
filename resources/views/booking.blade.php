@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+<div class="container"style="padding-top: 5rem">
     <!-- Reservation Start -->
     <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
         <div class="row g-0">
@@ -80,4 +81,5 @@
         </div>
     </div>
     <!-- Reservation end -->
+</div>
 @endsection
